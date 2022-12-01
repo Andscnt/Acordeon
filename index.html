@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACORDEON</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <section class="ancho">
+        <div class="contacordeon">
+            <h1>Frequently Asked Questions</h1><br>
+            <div class="acordeon">
+                <div class="acordeon_titulo titulo1">
+                    <div class="iconos">
+                        <i class="fa-solid fa-plus mas1"></i>
+                        <i class="fa-solid fa-minus menos1"></i>
+                    </div>
+                  <h4>Do you provide any scripts with your <br> templates?</h4>
+                </div>
+                <p class="acordeon_contenido contenido1">
+                    Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are inactive. Basic scripts can be easily added at www.zemez.io If you are not sure that the element you’re interested in is active please contact our Support Chat for clarification.
+                </p>
+                <div class="acordeon">
+                    <div class="acordeon_titulo titulo2">
+                        <div class="iconos">
+                            <i class="fa-solid fa-plus mas2"></i>
+                            <i class="fa-solid fa-minus menos2"></i>
+                        </div>
+                      <h4>What do I receive when I order a template?
+                      </h4>
+                    </div>
+                    <p class="acordeon_contenido contenido2">
+                        After you complete the payment via our secure form you will receive the instructions for downloading the product. The source files in the download package can vary based on the type of the product you have purchased.
+                    </p>
+                  </div>
+                  
+                <div class="acordeon">
+                    <div class="acordeon_titulo titulo3">
+                        <div class="iconos">
+                            <i class="fa-solid fa-plus mas3"></i>
+                            <i class="fa-solid fa-minus menos3"></i>
+                        </div>
+                      <h4>In what formats are you templates available?
+                      </h4>
+                    </div>
+                    <p class="acordeon_contenido contenido3">
+                        Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®.
+                    </p>
+                  </div>
+
+                  <div class="acordeon">
+                    <div class="acordeon_titulo titulo4">
+                        <div class="iconos">
+                            <i class="fa-solid fa-plus mas4"></i>
+                            <i class="fa-solid fa-minus menos4"></i>
+                        </div>
+                      <h4>What am I allowed to do with the templates?
+                      </h4>
+                    </div>
+                    <p class="acordeon_contenido contenido4">
+                        You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products, modified or unmodified. All products are property of content providing companies and individuals.
+                    </p>
+                  </div>
+        </div>
+        </div>
+        <div class="skills">
+        <h1>Skills</h1>
+                <article>
+                    <div class="info">
+                        <h3>Branding</h3>
+                        <p>90%</p>
+                    </div><br>
+                    <div class="porcentaje">
+                        <hr class="uno">
+                    </div>
+                </article>
+
+                <article>
+                    <div class="info">
+                        <h3>Web Design</h3>
+                        <p>65%</p>
+                    </div><br>
+                    <div class="porcentaje">
+                        <hr class="dos">
+                    </div>
+                </article>
+
+                <article>
+                    <div class="info">
+                        <h3>Copywriting</h3>
+                        <p>100%</p>
+                    </div><br>
+                    <div class="porcentaje">
+                        <hr class="tres">
+                    </div>
+                </article>
+
+                <article>
+                    <div class="info">
+                        <h3>Video Production</h3>
+                        <p>75%</p>
+                    </div><br>
+                    <div class="porcentaje">
+                        <hr class="cuatro">
+                    </div>
+                </article>
+
+        </div>
+    </section>
+
+    <script>
+    //ACORDEON
+
+    $(".titulo1").click(function () {
+      $(".contenido1").slideToggle();
+      $(".mas1").toggleClass("desaparecer");
+    });
+
+    $(".titulo2").click(function () {
+      $(".contenido2").slideToggle();
+      $(".mas2").toggleClass("desaparecer");
+    });
+
+    $(".titulo3").click(function () {
+      $(".contenido3").slideToggle();
+      $(".mas3").toggleClass("desaparecer");
+    });
+
+    $(".titulo4").click(function () {
+      $(".contenido4").slideToggle();
+      $(".mas4").toggleClass("desaparecer");
+    });
+  </script>
+
+</body>
+</html>
